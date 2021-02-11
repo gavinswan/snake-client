@@ -25,6 +25,12 @@ const handleUserInput = function(input) {
     case 's':
       connection.write('Move: down');
       break;
+    case 'n':
+      connection.write('Say: Not that way!');
+      break;
+    case 'm':
+      connection.write('Say: Other way you dummy!');
+      break;
   }
 }
 module.exports = {setupInput};
